@@ -1,0 +1,35 @@
+{
+    "options_title": {
+        "message": "Application Options"
+    },
+    "options_receive_app_notifications": {
+        "message": "Receive desktop <strong>notification</strong> when application updates"
+    },
+    "options_improve_configurator": {
+        "message": "Send anonymous usage data to the developer team"
+    },
+
+    "notifications_app_just_updated_to_version": {
+        "message": "Application just updated to version: $1"
+    },
+    "notifications_click_here_to_start_app": {
+        "message": "Click here to start the application"
+    },
+
+    "please_grant_usb_permissions": {
+        "message": "Please click on <strong>\"Request Optional Permissions\"</strong> button to grant application <strong style=\"color: red\">required</strong> <strong>USB</strong> access"
+    },
+    "usb_permissions_granted": {
+        "message": "Optional <strong>USB</strong> permissions <strong style=\"color: green\">granted</strong>"
+    },
+
+    "optional_permissions_head": {
+        "message": "Optional USB Permissions"
+    },
+    "optional_permissions_text": {
+        "message": "RapidFlash <strong style=\"color: red\">requires</strong> USB access to detect and work with USBasp"
+    },
+    "optional_permissions": {
+        "message": "Request Optional Permissions"
+    }
+}
