@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "minimum_chrome_version": "38",
+    "version": "0.1",
+
+    "author": "HidnSeek",
+    "name": "HidnSeek Flash Updater",
+    "short_name": "HidnSeekUpdate",
+    "description": "Upload last release firmware for HidnSeek Trackers",
+
+    "default_locale": "en",
+
+    "app": {
+        "background": {
+            "scripts": ["eventPage.js"],
+            "persistent": false
+        }
+    },
+
+    "permissions": [
+        "https://www.google-analytics.com/",
+        "https://*.github.com/",
+        "https://www.hidnseek.fr/",
+        "serial",
+        "usb",
+        "storage",
+        "fileSystem",
+        "fileSystem.write",
+        "notifications"
+    ],
+
+    "optional_permissions": [
+        {"usbDevices": [
+            {"vendorId": 5824, "productId": 1500}
+        ]}
+    ],
+
+    "icons": {
+        "128": "images/logo_125.png"
+    }
+}
